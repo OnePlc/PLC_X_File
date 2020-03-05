@@ -26,8 +26,8 @@ INSERT INTO `permission` (`permission_key`, `module`, `label`, `nav_label`, `nav
 ('list', 'OnePlace\\File\\Controller\\ApiController', 'List', '', '', 1),
 ('view', 'OnePlace\\File\\Controller\\FileController', 'View', '', '', 0),
 ('dump', 'OnePlace\\File\\Controller\\ExportController', 'Excel Dump', '', '', 0),
-('index', 'OnePlace\\File\\Controller\\SearchController', 'Search', '', '', 0);
-('save', 'OnePlace\\File\\Controller\\SearchController', 'Save Search', '', '', 0, 0);
+('index', 'OnePlace\\File\\Controller\\SearchController', 'Search', '', '', 0),
+('save', 'OnePlace\\File\\Controller\\SearchController', 'Save Search', '', '', 0);
 
 --
 -- Form
