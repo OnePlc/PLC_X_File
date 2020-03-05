@@ -11,5 +11,26 @@ msgstr ""
 "Language: de_DE\n"
 "X-Generator: Poedit 2.2.4\n"
 
+msgid "Files"
+msgstr "Speisekarten"
+
 msgid "File"
 msgstr "Speisekarte"
+
+msgid "Add File"
+msgstr "Speisekarte erfassen"
+
+msgid "Export Files"
+msgstr "Speisekarten exportieren"
+
+msgid "Find Files"
+msgstr "Speisekarte finden"
+
+msgid "Save File"
+msgstr "Speisekarte speichern"
+
+msgid "Edit File"
+msgstr "Speisekarte ändern"
+
+msgid "Name"
+msgstr "Titel"
