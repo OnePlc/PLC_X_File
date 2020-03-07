@@ -98,7 +98,6 @@ class InstallController extends CoreUpdateController {
                     copy($sCustomLangFile,'vendor/oneplace/oneplace-file/language/de_DE.mo');
                     echo $sCustomLangFile. " to ".'vendor/oneplace/oneplace-file/language/de_DE.mo';
                 }
-//                return;
             }
 
             $oModTbl = new TableGateway('core_module', CoreUpdateController::$oDbAdapter);

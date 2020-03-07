@@ -6,3 +6,14 @@ if(isset($aPartialExtraData)) {
 ?>
 <?= $this->partial('partial/formheader',['sTitle'=>'Edit File '.$oItem->getLabel()]) ?>
 <?= $this->partial('partial/basicform', $aPartialData); ?>
+<?php
+    $ext = false;
+    $sTargetDir = $_SERVER['DOCUMENT_ROOT'].'/data/file/'.$oItem->getID();
+    foreach(glob($sTargetDir.'/*') as $file) {
+    $ext = pathinfo($file, PATHINFO_EXTENSION);
+    }
+
+    if($ext) {
+    ?>
+    <div class="alert alert-warning">Das neue Dokument muss ein <?=strtoupper($ext)?> sein</div>
+<?php } ?>
